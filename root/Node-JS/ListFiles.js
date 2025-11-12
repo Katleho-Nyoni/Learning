@@ -12,3 +12,9 @@ fs.readdir("./", (err, Files) => {
   }
   console.log(Files);
 });
+
+// fs.readFile() is used to read the contents of a file asynchronously.
+
+fs.readFile("Global.js", "UTF-8", (err, data) => {
+  console.log(data);
+});
