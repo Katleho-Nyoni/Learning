@@ -6,3 +6,5 @@ fs.rename("./NewDirName/RenamedSample.md", "./RenamedSample.md", (err) => {
   }
   console.log("File moved successfully.");
 });
+
+//unlink is used to remove/delete files
