@@ -5,8 +5,30 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-const questions = [];
+const questions = [
+  "What is your name? ",
+  "Where do you live? ",
+  "What is your favorite programming language? ",
+];
 
-rl.question("How would you greet the world?", (answer) => {
-  console.log(`The answer is: ${answer}`);
+function collectAnswers(questions, done) {
+  const answers = [];
+
+  const questionAnswered = (answer) => {
+    answers.push(answer);
+    if (answers.length < questions.length) {
+      rl.question(questions[answers.length], questionAnswered);
+    } else {
+      done(answers);
+    }
+  };
+
+  rl.question(questions[0], questionAnswered);
+}
+
+collectAnswers(questions, (answers) => {
+  console.log("Thank you for your answers!");
+  console.log(answers);
+  rl.close();
+  process.exit();
 });
