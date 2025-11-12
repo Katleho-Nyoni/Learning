@@ -7,6 +7,14 @@ let md = `
 
 This is a sample markdown file created using Node.js File System module.`;
 
-fs.writeFile("Sample.md", md, () => {
+fs.writeFile("Sample.md", md, (err) => {
+  if (err) {
+    throw err;
+  }
+  fs.appendFileSync(
+    "Sample.md",
+    "\n\n File created and this line is appended."
+  );
+
   console.log("File created successfully.");
 });
