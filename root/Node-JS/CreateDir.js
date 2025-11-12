@@ -7,3 +7,7 @@ fs.mkdir("NewDirName", (err) => {
     console.log("Directory created successfully");
   }
 });
+
+fs.renameSync("./NewDirName/Sample.md", "./NewDirName/RenamedSample.md");
+
+console.log("File renamed successfully.");
