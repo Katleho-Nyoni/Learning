@@ -1,4 +1,5 @@
 import express from "express";
+import data from "./data/MOCK_DATA.json";
 
 const app = express();
 
