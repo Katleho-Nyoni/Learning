@@ -13,7 +13,7 @@ app.get("/class/:id", (req,res) => {
 
     res.send(student);
 
-
+    // Route chaining is cool
 });
 
 app.post('/api/establish', (req,res) => {
