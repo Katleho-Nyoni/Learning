@@ -5,10 +5,16 @@ const app = express();
 
 const PORT = 3000;
 
-app.get('/', (req,res) => {
+app.get("/class/:id", (req,res) => {
     // res.send("This is a GET method route");
-    res.json(data);
-})
+    const studentId = Number(req.params.id);
+
+    const student = data.filter(( student ) => student.id === studentId);
+
+    res.send(student);
+
+
+});
 
 app.post('/api/establish', (req,res) => {
     res.send("This is a POST method route");
@@ -17,7 +23,7 @@ app.post('/api/establish', (req,res) => {
 app.put('/api/edit', (req,res) => {
     res.send("This is a PUT method route");
 })
-
+   
 app.delete('/api/delete', (req,res) => {
     res.send("This is a DELETE method route");
 })
@@ -28,5 +34,5 @@ app.use('/images', express.static('images')); //localhost:3000/images/file
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
-  console.log(data);
+//   console.log(data);
 });
