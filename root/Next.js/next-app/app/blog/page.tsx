@@ -12,7 +12,7 @@ export default function BlogPage() {
         alt="Description"
         width={1000}
         height={760}
-        // unoptimized
+        unoptimized
       />
     </>
   );
