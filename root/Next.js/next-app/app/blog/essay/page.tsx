@@ -1,7 +1,7 @@
 export default function EssayPage() {
   return (
     <>
-      <h1>Essay Page</h1>
+      <h1 className="text-4xl">Essay Page</h1>
     </>
   );
 }

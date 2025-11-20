@@ -1,7 +1,7 @@
 export default function ArticlePage() {
   return (
     <>
-      <h1>Article Page</h1>
+      <h1 className="text-4xl">Article Page</h1>
     </>
   );
 }

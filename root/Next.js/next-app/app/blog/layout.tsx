@@ -9,6 +9,9 @@ export default function LayoutPage({
     <>
       <ul>
         <li>
+          <Link href="/blog">Blog</Link>
+        </li>
+        <li>
           <Link href="/blog/essay">Essay</Link>
         </li>
         <li>
