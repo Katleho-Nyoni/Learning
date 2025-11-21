@@ -14,7 +14,7 @@ export default function Testing() {
       </div>
       <hr />
       <section>
-        <h1 className="font-bold text-4xl/20">Welcome to Tailwind CSS</h1>
+        <h1 className="font-bold text-4xl/12">Welcome to Tailwind CSS</h1>
         <span className="font medium text-lg">
           Rapidly build modern websites without ever leaving your HTML.
         </span>
@@ -26,7 +26,9 @@ export default function Testing() {
           <code className="font-bold">rotate-90</code>
           that can be composed to build any design, directly in your markup.
         </p>
-        <a href="https://www.tailwindcss.com">Learn more</a>
+        <a className="underline" href="https://www.tailwindcss.com">
+          Learn more
+        </a>
       </section>
     </>
   );
