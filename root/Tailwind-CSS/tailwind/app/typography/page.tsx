@@ -14,7 +14,7 @@ export default function Testing() {
       </div>
       <hr />
       <div className="p-8">
-        <section className="p-8 border-2 border-indigo-500">
+        <section className="p-8 border-l-2 border-indigo-500">
           <h1 className="font-bold text-4xl/12 text-blue-600">
             Welcome to Tailwind CSS
           </h1>
