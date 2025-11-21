@@ -13,7 +13,7 @@ export default function Testing() {
         <p>Team Lead</p>
       </div>
       <hr />
-      <section>
+      <section className="p-8">
         <h1 className="font-bold text-4xl/12">Welcome to Tailwind CSS</h1>
         <span className="font medium text-lg">
           Rapidly build modern websites without ever leaving your HTML.
