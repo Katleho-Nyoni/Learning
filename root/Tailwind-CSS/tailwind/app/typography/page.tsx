@@ -13,11 +13,11 @@ export default function Testing() {
         <p>Team Lead</p>
       </div>
       <hr />
-      <section className="p-8">
+      <section className="p-8 bg-linear-to-br from-blue-500 to-red-700">
         <h1 className="font-bold text-4xl/12 text-blue-600">
           Welcome to Tailwind CSS
         </h1>
-        <span className="font medium text-lg">
+        <span className="font-medium text-lg bg-amber-100 text-black">
           Rapidly build modern websites without ever leaving your HTML.
         </span>
         <p className="text-sm">
