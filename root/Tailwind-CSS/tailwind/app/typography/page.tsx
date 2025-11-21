@@ -14,7 +14,9 @@ export default function Testing() {
       </div>
       <hr />
       <section className="p-8">
-        <h1 className="font-bold text-4xl/12">Welcome to Tailwind CSS</h1>
+        <h1 className="font-bold text-4xl/12 text-blue-600">
+          Welcome to Tailwind CSS
+        </h1>
         <span className="font medium text-lg">
           Rapidly build modern websites without ever leaving your HTML.
         </span>
