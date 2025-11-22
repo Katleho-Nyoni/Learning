@@ -16,7 +16,7 @@ export default function Testing() {
         />
         <p className=" font-bold">Alina Fallow</p>
         <p>Sent you a connection request</p>
-        <div className="space-x-2">
+        <div className="space-x-2 mt-2">
           <button className="border border-b-emerald-700 h-8 w-20 rounded bg-white text-blue-700 font-bold">
             Accept
           </button>
