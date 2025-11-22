@@ -8,12 +8,12 @@ export default function Testing() {
       <hr />
 
       <hr />
-      <div className="bg-indigo-700 h-45 w-80 p-4 rounded-lg text-white">
+      <div className="bg-indigo-700 h-45 w-80 p-4 rounded-lg text-white m-10">
         <img src="/avatar.png" alt="" className="rounded-full size-16" />
         <p className=" font-bold">Alina Fallow</p>
         <p>Sent you a connection request</p>
         <div className="space-x-2">
-          <button className="border border-b-emerald-700 h-8 w-20 rounded bg-white text-emerald-700 font-bold">
+          <button className="border border-b-emerald-700 h-8 w-20 rounded bg-white text-blue-700 font-bold">
             Accept
           </button>
           <button className="border border-amber-200 rounded h-8 w-20 font-bold">
