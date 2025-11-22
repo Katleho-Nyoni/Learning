@@ -5,6 +5,7 @@ export default function Testing() {
     <>
       <h1>Hello, World!</h1>
       <hr />
+      <div>Card</div>
       <h1>My Blog</h1>
       <div>
         {/* <!-- Blog Post 1 --> */}
