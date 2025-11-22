@@ -2,7 +2,7 @@ export default function Testing() {
   return (
     <>
       <h1>Hello, World!</h1> <hr />
-      <div>
+      <div className="p-8 border-amber-800 rounded-xl">
         <br />
         <p>
           Using this tool has simplified our workflow and boosted productivity.
