@@ -9,7 +9,11 @@ export default function Testing() {
 
       <hr />
       <div className="bg-indigo-700 h-45 w-80 p-4 rounded-lg text-white m-10">
-        <img src="/avatar.png" alt="" className="rounded-full size-16" />
+        <Image
+          src={avatar}
+          alt=""
+          className="rounded-full object-cover size-16"
+        />
         <p className=" font-bold">Alina Fallow</p>
         <p>Sent you a connection request</p>
         <div className="space-x-2">
