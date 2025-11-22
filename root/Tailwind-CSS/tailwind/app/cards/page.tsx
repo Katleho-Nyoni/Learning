@@ -6,15 +6,19 @@ export default function Testing() {
     <>
       <h1>Hello, World!</h1>
       <hr />
-      <div className="bg-indigo-500 text-white w-75 h-30">Card</div>
+
       <hr />
-      <div>
-        <Image src={avatar} alt="" width={100} height={100} />
-        <p>Alin Fallow</p>
+      <div className="bg-indigo-700 h-45 w-80 p-4 rounded-lg text-white">
+        <img src="/avatar.png" alt="" className="rounded-full size-16" />
+        <p className=" font-bold">Alina Fallow</p>
         <p>Sent you a connection request</p>
-        <div>
-          <button>Accept</button>
-          <button>Decline</button>
+        <div className="space-x-2">
+          <button className="border border-b-emerald-700 h-8 w-20 rounded bg-white text-emerald-700 font-bold">
+            Accept
+          </button>
+          <button className="border border-amber-200 rounded h-8 w-20 font-bold">
+            Decline
+          </button>
         </div>
       </div>
       <hr />
