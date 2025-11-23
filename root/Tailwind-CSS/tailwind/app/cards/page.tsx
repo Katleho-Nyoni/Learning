@@ -87,7 +87,7 @@ export default function Testing() {
       </div>
       <hr />
       <h1>My Blog</h1>
-      <div className="grid grid-cols-3 gap-1">
+      <div className="grid grid-cols-3 gap-1 grid-flow-row-dense">
         {/* <!-- Blog Post 1 --> */}
         <div className="rounded p-4 border border-indigo-800 mb-4">
           <svg
