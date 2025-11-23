@@ -27,7 +27,7 @@ export default function Testing() {
       </div>
       <hr />
       <h1 className="font-bold text-3xl text-center">Services</h1>
-      <div>
+      <div className="mt-6 flex justify-evenly">
         <div>
           <svg
             xmlns="http://www.w3.org/2000/svg"
