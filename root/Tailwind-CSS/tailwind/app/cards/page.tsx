@@ -175,7 +175,10 @@ export default function Testing() {
           </a>
         </div>
 
-        <a href="#" className="underline underline-offset-2  text-blue-800">
+        <a
+          href="#"
+          className=" bg-blue-800 rounded-full text-sm text-white font-bold px-6 py-2"
+        >
           Follow us on LinkedIn
         </a>
       </div>
