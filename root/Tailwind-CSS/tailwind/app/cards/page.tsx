@@ -177,7 +177,7 @@ export default function Testing() {
 
         <a
           href="#"
-          className=" bg-blue-800 rounded-full text-sm text-white font-bold px-6 py-2 fixed"
+          className=" bg-blue-800 rounded-full text-sm text-white font-bold px-6 py-2 fixed bottom-0 right-0"
         >
           Follow us on LinkedIn
         </a>
