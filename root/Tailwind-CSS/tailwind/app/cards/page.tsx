@@ -89,14 +89,14 @@ export default function Testing() {
       <h1>My Blog</h1>
       <div className="grid grid-cols-3 gap-1 grid-flow-row-dense">
         {/* <!-- Blog Post 1 --> */}
-        <div className="rounded p-4 border border-indigo-800 mb-4">
+        <div className=" relative rounded p-4 border border-indigo-800 mb-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            className="size-8"
+            className="size-4 absolute right-4 top-4"
           >
             <path
               stroke-linecap="round"
