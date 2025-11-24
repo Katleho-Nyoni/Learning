@@ -12,7 +12,7 @@ one repo can show all these.
 - Next.js `Complete`
 - Node.js `Complete`
   - Express.js `Complete`
-- Tailwind-CSS
+- Tailwind-CSS `Complete`
 - TypeScript
 
 ## Why Learn Everything?
