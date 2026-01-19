@@ -28,4 +28,4 @@ interface Gender {
     proof: PhysicalAttributes.breasts;
 }
 
-type LastPair = "XX" | "XY"; // or = string
+type LastPair = "XX" | "XY"; // or = stringIndexed
