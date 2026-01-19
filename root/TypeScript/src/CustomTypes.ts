@@ -25,7 +25,7 @@ enum PhysicalAttributes {
 interface Gender {
     Sex: boolean;
     Chromosomes: LastPair;
-    proof: PhysicalAttributes;
+    proof: PhysicalAttributes.breasts;
 }
 
 type LastPair = "XX" | "XY"; // or = string
