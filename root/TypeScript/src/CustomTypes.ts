@@ -16,9 +16,16 @@ let contact1: Contact = {
     email: "johndoe@email.com"
 }
 
+enum PhysicalAttributes {
+    breasts = "boobs",
+    maleGenital = "D",
+    femaleGenital = "P"
+}
+
 interface Gender {
     Sex: boolean;
     Chromosomes: LastPair;
+    proof: PhysicalAttributes;
 }
 
 type LastPair = "XX" | "XY"; // or = string
